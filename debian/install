@@ -1,0 +1,5 @@
+#!/bin/sh
+
+for dir in driver utility Makefile mx_ver.h; do
+	echo ${dir} /usr/src/${PACKAGE_NAME}-${PACKAGE_VERSION}
+done

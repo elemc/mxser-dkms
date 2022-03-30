@@ -1,0 +1,15 @@
+Source: mxser
+Section: kernel
+Priority: optional
+Maintainer: Alexei Panov <alexei@panov.email>
+Build-Depends: debhelper-compat (= 13),
+	       dkms
+Standards-Version: 4.5.1
+Homepage: https://moxa.com
+Rules-Requires-Root: no
+
+Package: mxser-dkms
+Architecture: all
+Depends: ${misc:Depends}
+Description: Kernel module for Moxa serial controllers
+ Kernel module driver source for Moxa serial controllers
